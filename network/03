@@ -1,0 +1,3 @@
+networksetup -getmacaddress en1
+
+#https://stackoverflow.com/questions/28685156/shell-command-for-getting-mac-address-in-os-x

@@ -1,0 +1,3 @@
+route -n get default
+
+#https://stackoverflow.com/questions/6782658/how-to-get-default-gateway-in-mac-osx
