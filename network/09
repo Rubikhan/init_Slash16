@@ -1,0 +1,1 @@
+It is the same for 42.fr no matter the DNS server used, however querying 42.us.org -is- different depending on whether or not the DNS is external or default.
