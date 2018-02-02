@@ -1,0 +1,4 @@
+df -h /dev/sda1
+
+#the third string will be whatever drive the system is installed on
+

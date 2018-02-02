@@ -1,0 +1,3 @@
+tail -f /var/log/syslog &
+
+# https://www.tecmint.com/run-linux-command-process-in-background-detach-process/

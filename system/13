@@ -1,0 +1,3 @@
+ps -aux
+
+#seems too easy, is there something I'm missing here?
