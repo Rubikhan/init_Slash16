@@ -1,3 +1,5 @@
-networksetup -listallhardwareports > file && sed -n '/Device/p' file | awk '{print substr($2,1); }' && rm file
+ifconfig -l
+
+#networksetup -listallhardwareports > file && sed -n '/Device/p' file | awk '{print substr($2,1); }' && rm file
 
 #networksetup -listallnetworkservices

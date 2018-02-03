@@ -1,5 +1,6 @@
-#dig -x 10.51.1.81
+dpm-master.42.us.org
 
 #relevant output#
 
-dpm-master.42.us.org
+#nslookup 10.51.1.81
+

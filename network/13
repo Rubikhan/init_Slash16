@@ -2,4 +2,4 @@
 
 nmap -A 10.51.1.253
 
-# its a Debian web server running an ancient version of Flask
+# its a Debian web server that uses DHCP
