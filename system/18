@@ -1,2 +1,1 @@
-
-#https://github.com/regien/ft_init/blob/master/system/18 gerardo ask
+iptables -A INPUT -p tcp -s 10.0.0.0/8 --dport 22 -j ACCEPT
