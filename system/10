@@ -1,3 +1,1 @@
 fdisk -l [name of external device]
-
-# reread questions and come back to this one

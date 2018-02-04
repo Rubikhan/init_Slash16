@@ -1,3 +1,2 @@
-ps -aux | grep ssh
+/etc/init.d/ssh status
 
-# https://ubuntuforums.org/showthread.php?t=1543474

@@ -1,4 +1,3 @@
 iptables -L 
 
-#come back to this? seems too simple
 #https://wiki.debian.org/iptables
