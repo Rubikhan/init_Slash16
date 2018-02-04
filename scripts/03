@@ -1,1 +1,1 @@
-ls -Ssp | grep -v /
+ls -Ssp $1 | grep -v /
