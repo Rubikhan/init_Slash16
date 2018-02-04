@@ -1,0 +1,17 @@
+# crontab file:
+
+0 0 * * * sh /root/Stuff/q4.sh
+
+#q4.sh (actual script it runs everyday at midnight):
+
+check=`md5sum /etc/crontab`
+checkold=`cat crontabmd5`
+
+if [ "$check" = "$checkold" ]
+then
+	echo "crontab has not changed"
+else
+	echo "crontab has changed" | mail -s "Crontab modification" root
+fi
+
+md5sum /etc/crontab > crontabmd5
